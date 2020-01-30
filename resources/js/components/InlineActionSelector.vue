@@ -56,8 +56,7 @@
 </template>
 
 <script>
-    import HandlesActions from '../mixins/HandlesActions'
-
+import HandlesActions from '../mixins/HandlesActions'
 export default {
   mixins: [HandlesActions],
 
@@ -68,7 +67,6 @@ export default {
 
   methods: {
     selectAndExecuteAction(action) {
-        console.log(action)
       this.selectedActionKey = action.uriKey
       this.determineActionStrategy()
     },
