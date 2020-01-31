@@ -36,9 +36,9 @@
         </th>
 
         <!-- Actions -->
-        <th>Действия</th>
+        <th></th>
         <!-- View, Edit, Delete -->
-        <th>&nbsp;</th>
+        <th></th>
       </tr>
     </thead>
     <tbody>

@@ -25,7 +25,7 @@
     </dropdown>
 
       <a href=""
-         v-bind:class="[action.destructive ? 'text-danger' : 'text-primary', 'no-underline']"
+         v-bind:class="[typeof action.styleClass !== 'undefined' ? action.styleClass : (action.destructive ? 'text-danger' : 'text-primary'), 'no-underline']"
          v-for="action in actions"
          :key="action.uriKey"
          @click.prevent="
